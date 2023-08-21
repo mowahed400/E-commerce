@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class OrderDetail extends Model
 {
     use HasFactory;
+    protected $guarded;
+    public function order()
+    {
+        return $this->belongsTo(Order::class);
+    }
+
+    public function productColorSize()
+    {
+        return $this->belongsTo(ProductColorSize::class.'product_color_size_id');
+    }
 }

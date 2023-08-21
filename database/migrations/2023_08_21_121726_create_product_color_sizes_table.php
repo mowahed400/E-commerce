@@ -13,7 +13,12 @@ return new class extends Migration
     {
         Schema::create('product_color_sizes', function (Blueprint $table) {
             $table->id();
-
+            $table->integer('product_size_id')->unsigned();
+            $table->integer('product_color_id')->unsigned();
+            $table->integer('quantity');
+            $table->decimal('price_two', 10, 2)->nullable();
+            $table->decimal('discount', 10, 2)->nullable();
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }
