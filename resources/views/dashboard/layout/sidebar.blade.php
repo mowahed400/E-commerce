@@ -1,16 +1,16 @@
- <!-- Page Sidebar Start-->
- <div class="page-sidebar">
+<!-- Page Sidebar Start-->
+<div class="page-sidebar">
     <div class="main-header-left d-none d-lg-block">
         <div class="logo-wrapper">
             <a href="index.html">
                 <img class="d-none d-lg-block blur-up lazyloaded"
-                    src="assets/images/dashboard/multikart-logo.png" alt="">
+                     src="assets/images/dashboard/multikart-logo.png" alt="">
             </a>
         </div>
     </div>
     <div class="sidebar custom-scrollbar">
         <a href="javascript:void(0)" class="sidebar-back d-lg-none d-block"><i class="fa fa-times"
-                aria-hidden="true"></i></a>
+                                                                               aria-hidden="true"></i></a>
         <div class="sidebar-user">
             <img class="img-60" src="assets/images/dashboard/user3.jpg" alt="#">
             <div>
@@ -364,7 +364,7 @@
                     <ul class="list">
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user.jpg" alt="">
+                                 src="assets/images/dashboard/user.jpg" alt="">
                             <div class="status-circle online"></div>
                             <div class="about">
                                 <div class="name">Vincent Porter</div>
@@ -373,7 +373,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user1.jpg" alt="">
+                                 src="assets/images/dashboard/user1.jpg" alt="">
                             <div class="status-circle away"></div>
                             <div class="about">
                                 <div class="name">Ain Chavez</div>
@@ -382,7 +382,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user2.jpg" alt="">
+                                 src="assets/images/dashboard/user2.jpg" alt="">
                             <div class="status-circle online"></div>
                             <div class="about">
                                 <div class="name">Kori Thomas</div>
@@ -391,7 +391,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user3.jpg" alt="">
+                                 src="assets/images/dashboard/user3.jpg" alt="">
                             <div class="status-circle online"></div>
                             <div class="about">
                                 <div class="name">Erica Hughes</div>
@@ -400,7 +400,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user3.jpg" alt="">
+                                 src="assets/images/dashboard/user3.jpg" alt="">
                             <div class="status-circle offline"></div>
                             <div class="about">
                                 <div class="name">Ginger Johnston</div>
@@ -409,7 +409,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/user5.jpg" alt="">
+                                 src="assets/images/dashboard/user5.jpg" alt="">
                             <div class="status-circle away"></div>
                             <div class="about">
                                 <div class="name">Prasanth Anand</div>
@@ -418,7 +418,7 @@
                         </li>
                         <li class="clearfix">
                             <img class="rounded-circle user-image blur-up lazyloaded"
-                                src="assets/images/dashboard/designer.jpg" alt="">
+                                 src="assets/images/dashboard/designer.jpg" alt="">
                             <div class="status-circle online"></div>
                             <div class="about">
                                 <div class="name">Hileri Jecno</div>
