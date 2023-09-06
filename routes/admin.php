@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\Dashboard\IndexController;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SettingController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -15,10 +15,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function () {
-    return view('welcome');
-})->name('index');
 
-Auth::routes();
+Route::get('index',[IndexController::class,'index']);
+Route::put('settings/{setting}/update',[SettingController::class , 'update'])->name('dashboard.settings.update');
+Route::get('settings',[SettingController::class , 'index'])->name('dashboard.settings.index');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
